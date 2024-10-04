@@ -1,3 +1,8 @@
+/*
+==================================================================
+	BRUSH.H HOLDING BRUSH INFORMATION AND COMMANDS
+==================================================================
+*/
 #pragma once
 
 #ifndef BRUSH_H
@@ -20,7 +25,7 @@ public:
 
 	int EBrushNums;
 
-	EBrush* EPlane__Ptr;
+	EBrush* EPlanePtr;
 	EBrush* eprev, * eowner, * enext;
 
 	void Brush_Shader(const char * pShaderName, EBrush& brush);
