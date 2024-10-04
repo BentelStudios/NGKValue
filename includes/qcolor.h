@@ -1,7 +1,5 @@
 /*
-	This file was written by Hunter Manko
-	This file is intended for @NGKValue
-	All Rights Reserved @2024 NGKValue
+	FILE NOT FINSIHED!!!
 */
 #pragma once
 
