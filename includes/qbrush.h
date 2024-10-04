@@ -1,7 +1,7 @@
 /*
 ==========================================================
 
-							This file is programmed by hunter manko @2024
+  BRUSH *!DONT USE FILE FOR 3D PRINTING 3D BRUSH!*			
 
 ==========================================================
 */
