@@ -12,7 +12,7 @@ public:
 
 	int EBrushNumberId;
 
-	eboolean Create_Brush( );
+	eboolean Create_Brush();
 
 	int EBrushNums;
 
