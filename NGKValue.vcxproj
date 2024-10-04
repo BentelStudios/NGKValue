@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{5e9ed26d-5e0d-49ec-b700-4abf46061fbb}</ProjectGuid>
+    <RootNamespace>NGKValue</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ngkvalue\autosave.cpp" />
+    <ClCompile Include="ngkvalue\brush.cpp" />
+    <ClCompile Include="ngkvalue\brushmanip.cpp" />
+    <ClCompile Include="ngkvalue\brushprimit.cpp" />
+    <ClCompile Include="ngkvalue\brushscon.cpp" />
+    <ClCompile Include="ngkvalue\brushscript.cpp" />
+    <ClCompile Include="ngkvalue\brushtoken.cpp" />
+    <ClCompile Include="ngkvalue\bsp.cpp" />
+    <ClCompile Include="ngkvalue\buildxml.cpp" />
+    <ClCompile Include="ngkvalue\b_dlg.cpp" />
+    <ClCompile Include="ngkvalue\camera.cpp" />
+    <ClCompile Include="ngkvalue\camwnd.cpp" />
+    <ClCompile Include="ngkvalue\console.cpp" />
+    <ClCompile Include="ngkvalue\csg.cpp" />
+    <ClCompile Include="ngkvalue\curve.cpp" />
+    <ClCompile Include="ngkvalue\drag.cpp" />
+    <ClCompile Include="ngkvalue\entity.cpp" />
+    <ClCompile Include="ngkvalue\error.cpp" />
+    <ClCompile Include="ngkvalue\file.cpp" />
+    <ClCompile Include="ngkvalue\filter.cpp" />
+    <ClCompile Include="ngkvalue\main.cpp" />
+    <ClCompile Include="ngkvalue\mainframe.cpp" />
+    <ClCompile Include="ngkvalue\map.cpp" />
+    <ClCompile Include="ngkvalue\model.cpp" />
+    <ClCompile Include="ngkvalue\ngkscon.cpp" />
+    <ClCompile Include="ngkvalue\node.cpp" />
+    <ClCompile Include="ngkvalue\patch.cpp" />
+    <ClCompile Include="ngkvalue\plugin.cpp" />
+    <ClCompile Include="ngkvalue\pluginbrush.cpp" />
+    <ClCompile Include="ngkvalue\pluginentities.cpp" />
+    <ClCompile Include="ngkvalue\pluginmodel.cpp" />
+    <ClCompile Include="ngkvalue\points.cpp" />
+    <ClCompile Include="ngkvalue\preferences.cpp" />
+    <ClCompile Include="ngkvalue\qtwindow.cpp" />
+    <ClCompile Include="ngkvalue\render.cpp" />
+    <ClCompile Include="ngkvalue\select.cpp" />
+    <ClCompile Include="ngkvalue\selectbrush.cpp" />
+    <ClCompile Include="ngkvalue\selectface.cpp" />
+    <ClCompile Include="ngkvalue\shader.cpp" />
+    <ClCompile Include="ngkvalue\target.cpp" />
+    <ClCompile Include="ngkvalue\texture.cpp" />
+    <ClCompile Include="ngkvalue\texturelist.cpp" />
+    <ClCompile Include="ngkvalue\texturemanip.cpp" />
+    <ClCompile Include="ngkvalue\texture_dlg.cpp" />
+    <ClCompile Include="ngkvalue\texwnd.cpp" />
+    <ClCompile Include="ngkvalue\toolbar.cpp" />
+    <ClCompile Include="ngkvalue\undo.cpp" />
+    <ClCompile Include="ngkvalue\val.cpp" />
+    <ClCompile Include="ngkvalue\viewport.cpp" />
+    <ClCompile Include="ngkvalue\winding.cpp" />
+    <ClCompile Include="ngkvalue\xywnd.cpp" />
+    <ClCompile Include="ngkvalue\zywnd.cpp" />
+    <ClCompile Include="ngkvalue\zxwnd.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\qbrush.h" />
+    <ClInclude Include="includes\qcamera.h" />
+    <ClInclude Include="includes\qcolor.h" />
+    <ClInclude Include="includes\qentity.h" />
+    <ClInclude Include="includes\qfile.h" />
+    <ClInclude Include="includes\qgame.h" />
+    <ClInclude Include="includes\qgrid.h" />
+    <ClInclude Include="includes\qnode.h" />
+    <ClInclude Include="includes\qnodetree.h" />
+    <ClInclude Include="includes\qplugin.h" />
+    <ClInclude Include="includes\qpoints.h" />
+    <ClInclude Include="includes\qpreferences.h" />
+    <ClInclude Include="includes\qshader.h" />
+    <ClInclude Include="includes\qstream.h" />
+    <ClInclude Include="includes\qtools.h" />
+    <ClInclude Include="includes\qwinding.h" />
+    <ClInclude Include="ngkvalue\autosave.h" />
+    <ClInclude Include="ngkvalue\brush.h" />
+    <ClInclude Include="ngkvalue\bsp.h" />
+    <ClInclude Include="ngkvalue\buildxml.h" />
+    <ClInclude Include="ngkvalue\b_dlg.h" />
+    <ClInclude Include="ngkvalue\camera.h" />
+    <ClInclude Include="ngkvalue\camwnd.h" />
+    <ClInclude Include="ngkvalue\console.h" />
+    <ClInclude Include="ngkvalue\csg.h" />
+    <ClInclude Include="ngkvalue\curve.h" />
+    <ClInclude Include="ngkvalue\drag.h" />
+    <ClInclude Include="ngkvalue\entity.h" />
+    <ClInclude Include="ngkvalue\error.h" />
+    <ClInclude Include="ngkvalue\file.h" />
+    <ClInclude Include="ngkvalue\filter.h" />
+    <ClInclude Include="ngkvalue\link_token.h" />
+    <ClInclude Include="ngkvalue\main.h" />
+    <ClInclude Include="ngkvalue\map.h" />
+    <ClInclude Include="ngkvalue\model.h" />
+    <ClInclude Include="ngkvalue\ngkscon.h" />
+    <ClInclude Include="ngkvalue\node.h" />
+    <ClInclude Include="ngkvalue\patch.h" />
+    <ClInclude Include="ngkvalue\plugin.h" />
+    <ClInclude Include="ngkvalue\points.h" />
+    <ClInclude Include="ngkvalue\qtwindow.h" />
+    <ClInclude Include="ngkvalue\render.h" />
+    <ClInclude Include="ngkvalue\script.h" />
+    <ClInclude Include="ngkvalue\selectpreferences.h" />
+    <ClInclude Include="ngkvalue\shader.h" />
+    <ClInclude Include="ngkvalue\texture.h" />
+    <ClInclude Include="ngkvalue\texture_dlg.h" />
+    <ClInclude Include="ngkvalue\texwnd.h" />
+    <ClInclude Include="ngkvalue\undo.h" />
+    <ClInclude Include="ngkvalue\val.h" />
+    <ClInclude Include="ngkvalue\viewport.h" />
+    <ClInclude Include="ngkvalue\winding.h" />
+    <ClInclude Include="ngkvalue\xywnd.h" />
+    <ClInclude Include="ngkvalue\zxwnd.h" />
+    <ClInclude Include="ngkvalue\yzwnd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

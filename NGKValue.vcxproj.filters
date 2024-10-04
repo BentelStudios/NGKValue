@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include=".github">
+      <UniqueIdentifier>{48c8996e-e84b-46a5-8eac-31252dc00649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".vscode">
+      <UniqueIdentifier>{4e1350a5-471b-45ea-a67c-3f35bd603d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="apple">
+      <UniqueIdentifier>{6814a53e-ac45-4018-931d-0d6833fe28a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="configure">
+      <UniqueIdentifier>{34465660-4cde-45ed-a09d-76811359d353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contribute">
+      <UniqueIdentifier>{2e5dae8b-62a1-46be-afed-558f656decea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{fba7aaad-f550-47cc-998f-8cd71e4dbb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters">
+      <UniqueIdentifier>{e71e85f7-364b-4c3b-badb-beffb4c883f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="icons">
+      <UniqueIdentifier>{640c0817-22e5-4c42-b1fd-f3610e8d053c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="includes">
+      <UniqueIdentifier>{13a81784-bdf9-478b-a3ee-7f5c4a537768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="installs">
+      <UniqueIdentifier>{9f6fdb99-0a16-44b4-9926-0f6a8ba33a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{e41d8504-05a5-4527-b740-6c550a043095}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ngkvalue">
+      <UniqueIdentifier>{1e3d12e7-1a59-4026-90f8-7b6e959048b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pluginpak">
+      <UniqueIdentifier>{d379d74f-0e3a-4401-8a01-ae22a6d1c498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{b40a9c7e-3202-44eb-aee7-a1a79646161c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\commandlib">
+      <UniqueIdentifier>{e2856b91-13a9-47a0-a7dd-0191e2a73c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\netlib">
+      <UniqueIdentifier>{35b69335-0499-4de0-836e-03ea72577ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\mathlib">
+      <UniqueIdentifier>{143cabbe-b848-42fd-a30a-567f9384ecdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\matrixlib">
+      <UniqueIdentifier>{94228cae-9596-4428-b781-b5060ab132e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\bckgrndlib">
+      <UniqueIdentifier>{4c7ada27-16d2-45ed-b7b9-f80dfdb7aad9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ngkvalue\mainframe.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\brush.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\brushprimit.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\brushmanip.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\brushtoken.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\brushscon.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\map.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\autosave.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\camwnd.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\xywnd.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\zywnd.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\zxwnd.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\preferences.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\toolbar.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\camera.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\render.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\texwnd.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\buildxml.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\ngkscon.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\patch.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\texture.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\texturelist.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\viewport.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\node.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\b_dlg.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\brushscript.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\csg.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\drag.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\entity.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\error.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\file.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\filter.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\texture_dlg.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\main.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\qtwindow.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\plugin.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\pluginentities.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\pluginbrush.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\pluginmodel.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\model.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\shader.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\points.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\curve.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\select.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\selectface.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\selectbrush.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\target.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\val.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\texturemanip.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\undo.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\bsp.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\winding.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+    <ClCompile Include="ngkvalue\console.cpp">
+      <Filter>ngkvalue</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ngkvalue\autosave.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\b_dlg.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\brush.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\bsp.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\buildxml.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\camera.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\camwnd.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\console.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\csg.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\curve.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\drag.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\script.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\entity.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\error.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\file.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\filter.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\main.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\map.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\model.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\ngkscon.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\node.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\patch.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\plugin.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\points.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\selectpreferences.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\shader.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\texture.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\texture_dlg.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\texwnd.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\xywnd.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\zxwnd.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\yzwnd.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\winding.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\val.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\viewport.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\render.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\qtwindow.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\undo.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="ngkvalue\link_token.h">
+      <Filter>ngkvalue</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qbrush.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qcamera.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qtools.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qfile.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qstream.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qentity.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qshader.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qgrid.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qcolor.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qgame.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qpreferences.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qwinding.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qpoints.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qplugin.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qnodetree.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\qnode.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
