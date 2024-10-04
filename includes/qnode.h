@@ -1,7 +1,7 @@
 /*
-	This file was written by Hunter Manko
-	This file is intended for @NGKValue
-	All Rights Reserved @2024 NGKValue
+=================================================
+	QNODE.H USED FOR NODES IN EDITOR
+=================================================
 */
 #pragma once
 
@@ -20,6 +20,11 @@ public:
 
 	float NodeMatrixTranslation;//node translation
 	float NodeMatrixRotation;//node rotation
+
+	/*
+ 	   ---NODES DONT HAVE SCALING THERE SIZE IS ALREADY PRESET---
+	*/
+
 
 		virtual bool CreatedNode( );
 
