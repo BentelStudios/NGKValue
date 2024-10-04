@@ -1,7 +1,7 @@
 /*
-	This file was written by Hunter Manko
-	This file is intended for @NGKValue
-	All Rights Reserved @2024 NGKValue
+====================================================
+	QFILE.H HANDLING FILES IN NGKVALUE
+====================================================
 */
 #pragma once
 
