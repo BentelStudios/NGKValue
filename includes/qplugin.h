@@ -1,7 +1,9 @@
 /*
-	This file was written by Hunter Manko
-	This file is intended for @NGKValue
-	All Rights Reserved @2024 NGKValue
+===============================================================
+	QPLUGIN.H USELESS! I LOVE WASTING TIME CODING
+
+ 	     !***JUST USE Scons-Pluign.cpp***!
+===============================================================
 */
 #pragma once
 
