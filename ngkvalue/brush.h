@@ -34,5 +34,6 @@ public:
 	void Brush_Free(EBrush * brush);
 	void Brush_Lock(EBrush * brush);
 	void Brush_Alloc(EBrush * brush);
-	voif Brush_Null(EBrush * NullBrush);
+	void Brush_Null(EBrush * NullBrush);
+	EBrush * EClamp; EBrush * ELockPoints; EBrush * ETagBrush;
 };
