@@ -39,8 +39,8 @@ const static int bsp_tree_num[100000];
 
    enum BspType{
      BSP_CUTTER = 0x0,
-     BSP_DEFINE = 1x1,
-     BSP_SWAP = 2x2
+     BSP_DEFINE = 1,
+     BSP_SWAP = 2
    };
 
 };
