@@ -23,9 +23,9 @@ public:
 
   bool RefreshMatrix(MatrixIdentity, float mTick);
 
-  enum MatrixIdentity{
-   M4X4 = 0, M3X4 = 1, M3X3 = 2 
-  };
+   enum MatrixIdentityMath {
+     M4 = 0, M3 = 1, M3 = 2
+   };
 
   void LoadIdentity(MatrixIdentity * matrix_identity, int mNumber, static int mBuffer);
 
