@@ -47,4 +47,18 @@ public:
     void Matrix3x4(Matrix);
     virtual void MatrixType(Matrix* mMatrixType);
 
+    enum MatrixFunction{
+     MATRIX_TRANSLATE = 0,
+     MATRIX_SCALE = 1,
+     MATRIX_ROTATE = 2
+    };
+
+    float matrix_degree;
+
+    float& degree;
+
+    float MATRIX_ROTATE_CLIP = 90;
+    float MATRIX_ROTATE_CLIP_SEMI = 180;
+    float MATRIX_ROTATE_FULL = 360;
+
 };
