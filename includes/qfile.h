@@ -47,6 +47,6 @@ public:
 			/*---calls a qfile type---*/	
 			int QFile_PrintType;
 
-			virtual void QFlush( );
+			virtual void QFlush();
 
 };
