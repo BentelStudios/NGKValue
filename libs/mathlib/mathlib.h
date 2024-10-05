@@ -12,8 +12,9 @@
 
 auto ConstructVector();
 
+/*----No Need For This----
 template<class Vector>Vec;
-
+*/
 typedef float vec;
 typedef vec vec3[3];
 typedef vec vec4[4];
