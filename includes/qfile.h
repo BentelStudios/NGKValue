@@ -23,10 +23,10 @@ public:
 	typedef void QSys_printf;
 	typedef bool qbool;
 
-	QFile( );
-	~QFile( );
+	QFile();
+	~QFile();
 
-	virtual void QSys_printf( );/*---acts as a printf fucntion---*/
+	virtual void QSys_printf();/*---acts as a printf fucntion---*/
 	virtual void QSys_Openfile( QFile * owner, const char * qFileName );
 	virtual void QSys_Savefile( QFile * current, const char * qFileName );
 
