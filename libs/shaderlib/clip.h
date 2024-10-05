@@ -13,6 +13,7 @@
 #define CLIP_AI 1x0
 
 #include "clip.h"
+#include "mathlib.h"
 
 typedef struct Clip{
 
@@ -28,5 +29,6 @@ int cClipSpawnflags = 1;
 void cClipPreferences(Clip * cSelectedClip, const char * cKey = "classname", const char * cValue = "clip");
 virtual void cClipShader(Clip * clip, Shader * cShader, const char * pcClipShaderName);
 
+vec3 cClipvectors(c1, c2, c3);
 
 };
