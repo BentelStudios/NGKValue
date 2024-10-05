@@ -30,7 +30,7 @@ public:
 	virtual void QSys_Openfile( QFile * owner, const char * qFileName );
 	virtual void QSys_Savefile( QFile * current, const char * qFileName );
 
-		qbool QSave_File( );
+		qbool QSave_File();
 
 		int QFileDataSize;
 
