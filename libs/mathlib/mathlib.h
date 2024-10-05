@@ -29,7 +29,6 @@ typedef vec vec6[6];
 
 vec vec_snaptogrid(int snap);
 vec vec_point(int vpoint);
-vec3(vp1, vp2, vp3);
 
 
 
