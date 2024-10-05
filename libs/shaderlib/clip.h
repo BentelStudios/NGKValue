@@ -22,7 +22,10 @@ typedef struct Clip{
 bool cDisableCollision = true;
 
 int cClipSpawnflags = 1;
-
+/*----------------------------------------------------*/
+/*---CLIP PREFERENECES ARE THE CLIPS KEY AND VALUES---*/
+/*----------------------------------------------------*/
+void cClipPreferences(Clip * cSelectedClip, const char * cKey = "classname", const char * cValue = "clip");
 virtual void cClipShader(Clip * clip, Shader * cShader, const char * pcClipShaderName);
 
 
