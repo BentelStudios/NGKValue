@@ -27,7 +27,7 @@ public:
 	~QFile( );
 
 	virtual void QSys_printf( );/*---acts as a printf fucntion---*/
-	virtual void QSys_Openfile(	QFile * owner, const char * qFileName );
+	virtual void QSys_Openfile( QFile * owner, const char * qFileName );
 	virtual void QSys_Savefile( QFile * current, const char * qFileName );
 
 		qbool QSave_File( );
