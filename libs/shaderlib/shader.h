@@ -10,7 +10,7 @@
 
 #endif
 
-#include <file>
+#include <string>
 
 using namespace std;
 
@@ -20,11 +20,11 @@ typedef struct Shader{
  int shader_points[3];
 
  enum ShaderType{
-  FILE * png = 0, 
-  FILE * jpeg = 0,
-  FILE * tga = 0, 
-  FILE * dds = 0,
-  FILE * shader = 0
+      png = 0,
+      jpeg = 0,
+      tga = 0,
+      dds = 0,
+      shader = 0
  };
 
   #define RGB_SHADER_PIXEL_VALUE 000
