@@ -12,6 +12,8 @@
 #define CLIP_PLAYER 0x0
 #define CLIP_AI 1x0
 
+#include "clip.h"
+
 typedef struct Clip{
 
   Clip();
@@ -21,6 +23,7 @@ bool cDisableCollision = true;
 
 int cClipSpawnflags = 1;
 
+virtual void cClipShader(Clip * clip, Shader * cShader, const char * pcClipShaderName);
 
 
 };
