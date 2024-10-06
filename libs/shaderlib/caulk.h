@@ -16,6 +16,9 @@
 
 typedef struct caulk{
 
+ caulk();
+ virtual ~caulk();
+
  bool cCaulkBrushShader = true;
 
  static int cCaulkSpawnflags = 2;
