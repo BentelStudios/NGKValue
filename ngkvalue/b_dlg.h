@@ -29,4 +29,8 @@ double HTextureScale;
 bool IncreaseStretch(Texture);
 bool DecreaseStretch(Texture);
 
+Texture *currentTexdef, *prevTexdef, *newTexdef;
+
+void BDlgGetCurrentBrush(EBrush * selectedbrush, Texture& texdef);
+
 };
