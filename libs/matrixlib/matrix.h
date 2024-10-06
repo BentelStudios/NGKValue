@@ -25,6 +25,21 @@ public:
         mMatrixCallbackSignal->MatrixId = 1024;
     };
 
+   /*
+   =========================================
+   
+                 MATRIX4X4
+
+                  y
+                  |
+                  |
+                  |_________x
+                  |
+                  |
+                  z
+                  
+   =========================================
+   */
     void Matrix4x4(Matrix* matrix, Matrix& matcall)
     {
         int x[3];
@@ -61,4 +76,7 @@ public:
     float MATRIX_ROTATE_CLIP_SEMI = 180;
     float MATRIX_ROTATE_FULL = 360;
 
+    bool mMatrixTranslate;
+    bool mMatrixRotate;
+    bool mMatrixScale;
 };
