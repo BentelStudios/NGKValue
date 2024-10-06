@@ -8,6 +8,8 @@
 
 #endif
 
+#define EPLUGIN_TYPE 000x111
+
 typedef struct EPluginPak{
 
 static int EPluginNumberId = 0;
