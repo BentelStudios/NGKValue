@@ -86,6 +86,8 @@ virtual void ConstructQGridItems(QGridMenu& gridMenu, QGrid * qGrid, QMenu& Grid
     gridMenu.ConstructQGridMenu(gridMenu);
     gridMenu.ConstructQGridItems(gridMenu);
     QGridMenuItems.popup(gridMenu.GridItems(QGridMenuItems));
+
+       return true;
    }
   
   };
@@ -97,6 +99,8 @@ virtual void ConstructQGridItems(QGridMenu& gridMenu, QGrid * qGrid, QMenu& Grid
       QGridMenuItem = gridMenu.GridItems(gridMenu);
       qGrid.qGetGridMatrix(qGrid, GridItemString.GridItems(GridItemString));
           Sys_printf("%s", "QGridMenu" gridMenu.GridItems(gridMenu));
+
+         return true;
     }
     
   };
