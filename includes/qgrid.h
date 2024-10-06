@@ -43,8 +43,8 @@ void qConstructGridLines(QGrid * qMinsOrMax, static int q_nOfficalRows, static i
 const void ShowLines(QGrid& qGridLines)const;
 const void ShowBackground(QGrid& qGridBackground)const;
 
-bool qGridZoomIn(QGrid, double qGridZoom);
-bool qGridZoomOut(QGrid, double qGridZoom);
+bool qGridZoomIn(QGrid& qGrid, double qGridZoom);
+bool qGridZoomOut(QGrid& qGrid, double qGridZoom);
 
 enum QGridViewMode{
 GRID_WIREFRAME_MODE = 0,
@@ -60,5 +60,7 @@ static int qMouseBindingLeftClick = 32;
 static int qGridKeyMouseBinding = 32;
 
 virtual void qGetGridMatrix(QGrid);
+
+bool qGridDrag(QGrid& qGrid, double qDragLines);
 
 };
