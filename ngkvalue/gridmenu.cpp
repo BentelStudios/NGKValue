@@ -95,7 +95,8 @@ virtual void ConstructQGridItems(QGridMenu& gridMenu, QGrid * qGrid, QMenu& Grid
     {
       GridItemString.append(str = QGridMenuItem(GridItemString));
       QGridMenuItem = gridMenu.GridItems(gridMenu);
-      qGrid.
+      qGrid.qGetGridMatrix(qGrid, GridItemString.GridItems(GridItemString));
+          Sys_printf("%s", "QGridMenu" gridMenu.GridItems(gridMenu));
     }
     
   };
