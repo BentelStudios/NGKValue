@@ -26,6 +26,6 @@ typedef struct caulk{
   CAULK_YELLOW = 2
  };
 
- void cCaulkShader();
+ void Open_Caulk(caulk * cCaulk, Shader * scCaulk, const char * cCaulkShaderName);
 
 };
