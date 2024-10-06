@@ -27,5 +27,6 @@ typedef struct caulk{
  };
 
  void Open_Caulk(caulk * cCaulk, Shader * scCaulk, const char * cCaulkShaderName);
+ virtual void Alloc_CaulkBrush(caulk * c = (caulk*)malloc(sizeof(caulk)));
 
 };
