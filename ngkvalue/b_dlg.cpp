@@ -17,4 +17,6 @@ BrushDialog * Create_Dialog(BrushDialog * dlg, QWidget& qBrushDialog){
     qBrushDialogPtr->activateWindow(qBrushDialog.isWindow(qBrushDialog) == true);
     qBrushDialogPtr->DialogCode{ q_bdCode };
     qBrushDialogPtr->RenderFlags{ q_bdRFlags };
+
+  return qBrushDialogPtr;
 };
