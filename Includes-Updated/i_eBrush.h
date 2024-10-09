@@ -20,6 +20,8 @@ public:
 static int i_eBrushNumberid = 0;
 iEBoolean i_eBrushCreated();
 
+virtual void Create_Brush(i_eBrush * brush, static char * i_eSpawn, static int i_eSpawnflags);
+
 enum i_eBrushMode{
   i_eFreeMode = 0,
   i_eLockMode = 1,
